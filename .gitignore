@@ -8,7 +8,7 @@ __pycache__/
 
 # Distribution / packaging
 .Python
-env/
+docker-django-cd/
 build/
 develop-eggs/
 dist/
@@ -78,9 +78,6 @@ celerybeat-schedule
 
 # SageMath parsed files
 *.sage.py
-
-# dotenv
-.env
 
 # virtualenv
 .venv
