@@ -1,6 +1,6 @@
 # docker-django-cd
 
-[![Build Status](https://travis-ci.org/sitture/django-docker-cd.svg?branch=master&style=flat-square)](https://travis-ci.org/sitture/django-docker-cd) [![Requirements Status](https://requires.io/github/sitture/django-docker-cd/requirements.svg?branch=master)](https://requires.io/github/sitture/django-docker-cd/requirements/?branch=master)
+[![Build Status](https://travis-ci.org/sitture/django-docker-cd.svg?branch=master&style=flat-square)](https://travis-ci.org/sitture/django-docker-cd) [![Requirements Status](https://requires.io/github/sitture/docker-django-cd/requirements.svg?branch=master)](https://requires.io/github/sitture/docker-django-cd/requirements/?branch=master)
 
 A docker-based Project running Django application with Mysql.
 
