@@ -7,11 +7,9 @@ services:
 
 before_script:
   - docker-compose build
-  - docker-compose up -d
-  - sleep 5
 
 script:
- - docker run dockerdjango_app python manage.py test
+ - docker run dockerdjangocd_app python manage.py test
 
 after_script:
   - docker-compose kill
