@@ -1,6 +1,6 @@
 # docker-django-cd
 
-[![Build Status](https://travis-ci.org/sitture/django-docker-cd.svg?branch=master&style=flat-square)](https://travis-ci.org/sitture/django-docker-cd) [![Requirements Status](https://requires.io/github/sitture/docker-django-cd/requirements.svg?branch=master)](https://requires.io/github/sitture/docker-django-cd/requirements/?branch=master)
+[![Build Status](https://travis-ci.org/sitture/docker-django-cd.svg?branch=master&style=flat-square)](https://travis-ci.org/sitture/docker-django-cd) [![Requirements Status](https://requires.io/github/sitture/docker-django-cd/requirements.svg?branch=master)](https://requires.io/github/sitture/docker-django-cd/requirements/?branch=master)
 
 A docker-based Project running Django application with Mysql.
 
@@ -25,7 +25,7 @@ source bin/activate
 ### Clone the repository
 
 ```bash
-git clone git@github.com:sitture/django-docker-cd.git .
+git clone git@github.com:sitture/docker-django-cd.git .
 ```
 
 ### Install required packages
@@ -60,7 +60,7 @@ If you are comfortable using Docker, you can build this image, run it using sqli
 As you can imagine, the only command to build this image is:
 
 ```bash
-docker build -t django-docker-cd:0.1.0 .
+docker build -t docker-django-cd:0.1.0 .
 ```
 
 If the image fails on the building process, check out the log, could be failing tests.
@@ -68,7 +68,7 @@ If the image fails on the building process, check out the log, could be failing 
 Once the image is built, you can run it:
 
 ```bash
-docker run -d -p 8000:8000 django-docker-cd:0.1.0
+docker run -d -p 8000:8000 docker-django-cd:0.1.0
 ```
 
 ### Docker Compose
