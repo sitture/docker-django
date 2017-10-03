@@ -9,7 +9,7 @@ before_script:
   - docker-compose build
 
 script:
- - docker run dockerdjango_web python manage.py test
+ - docker run dockerdjango_app python manage.py test
 
 after_script:
   - docker-compose kill

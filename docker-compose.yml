@@ -10,7 +10,7 @@ services:
       timeout: 20s
       retries: 10
 
-  web:
+  app:
     build: .
     container_name: docker-django
     env_file:
